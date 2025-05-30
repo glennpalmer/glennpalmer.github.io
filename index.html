@@ -1,1 +1,89 @@
-Hello World.
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Glenn Palmer</title>
+    <meta name="description" content="A brief description of your site for search engines">
+    <meta name="author" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="logo.png" width="200" height="200">
+      <h1>Glenn Palmer</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#blog">blog</a></li>
+        <li><a href="#cv">cv</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <!-- <h2>Home</h2> -->
+            <p>
+              Welcome! I'm Glenn. I'm a PhD student in the <a href="https://stat.duke.edu/">Department of Statistical Science</a> at Duke University, working on applied Baysian methods with <a href="https://www.daviddunson.com/">Professor David Dunson</a>. Before my PhD, I collected degrees in <a href="https://physics.duke.edu/">Physics</a>, <a href="https://educationprogram.duke.edu/MAT">Teaching</a>, and <a href="https://www.cs.wisc.edu/">Computer Science</a>, developed science and math curriculum at <a href="https://www.ixl.com/">IXL Learning</a>, and taught high school math and physics at <a href="https://www.dpsnc.net/">Durham Public Schools</a>. Check out the other tabs for more info about what I've been up to.<br><br>
+
+              If anything catches your interest, feel free to reach out at <a href="mailto:glenn.palmer@duke.edu">glenn.palmer@duke.edu</a>, or message me on <a href="https://www.linkedin.com/in/glennpalmer55/">LinkedIn</a>.
+            </p>
+          </div>
+          
+          <div id="projects" class="content-region hide">
+            <h2>Projects</h2>
+            <p>
+              Projects coming soon!
+            </p>
+          </div>
+          
+          <div id="blog" class="content-region hide">
+            <h2>Blog</h2>
+            <p>
+              This "blog" is mostly just me trying to explain some topics in statistics to myself. The posts aren't written for a particular target audience, and the topics will likely jump around based on what comes up in my work, but I figured I'd put them on here in case anyone finds them useful! <br><br>
+              <a href="tutorials/gaussian_process_intro.html">Intro to Gaussian Processes (2/18/2023)</a><br>
+              <a href="tutorials/p_splines.html">From B-splines to P-splines (2/4/2023)</a><br>
+              <a href="tutorials/splines.html">Intro to Splines (2/2/2023)</a>
+            </p>
+          </div>
+
+          <div id="cv" class="content-region hide">
+            <h2>CV</h2>
+            <p>
+              CV coming soon!
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
